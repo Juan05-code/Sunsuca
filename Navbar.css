@@ -1,0 +1,47 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: #4CAF50; /* Color de fondo verde */
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un poco de profundidad */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo h1 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    margin-right: 55px;
+  }
+  
+  .navbar-links li {
+    margin-left: 1rem; /* Reducimos el margen entre los elementos */
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #ddd;
+  }
+  

@@ -1,0 +1,27 @@
+/* Estilos para los cards de los servicios */
+.service-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .service-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .services-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* Estilos generales */
+  header, section {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: green;
+  }
+  

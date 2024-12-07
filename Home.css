@@ -1,0 +1,82 @@
+/* src/pages/Home.css */
+
+/* Contenedor principal de la página */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* La página llena toda la altura de la ventana */
+    background-color: #f4f4f9; /* Fondo claro para que sea agradable a la vista */
+    text-align: center;
+    padding: 0 1rem;
+  }
+  
+  .home-logo {
+    margin-bottom: 2rem;
+  }
+  
+  .logo-img {
+    width: 180px; /* Tamaño del logo */
+    height: auto;
+    border-radius: 8px; /* Opcional: agrega bordes redondeados al logo */
+  }
+  
+  .home-slogan h1 {
+    color: #4CAF50; /* Verde para el título */
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .home-slogan p {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .home-footer {
+    position: absolute;
+    bottom: 2rem; /* Ubicamos el footer al fondo */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .contact-link {
+    text-decoration: none;
+    color: #4CAF50; /* Verde para el enlace */
+    font-weight: bold;
+    margin-right: 2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    color: #45a049; /* Efecto hover con un verde más oscuro */
+  }
+  
+  .home-footer p {
+    margin-top: 1rem;
+    color: #666; /* Color gris para el texto del copyright */
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .logo-img {
+      width: 150px; /* Ajustamos el tamaño del logo en pantallas más pequeñas */
+    }
+  
+    .home-slogan h1 {
+      font-size: 2.5rem;
+    }
+  
+    .home-slogan p {
+      font-size: 1rem;
+    }
+  
+    .home-footer {
+      font-size: 0.9rem;
+    }
+  }
+  
